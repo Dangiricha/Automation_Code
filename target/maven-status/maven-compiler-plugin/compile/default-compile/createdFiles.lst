@@ -1,0 +1,7 @@
+com/orangeHR/Page/DirectoryPage.class
+com/orangeHR/Page/DashboardPage.class
+com/orangeHR/Page/LoginPage.class
+com/orangeHR/utils/TestUtil.class
+com/orangeHR/base/TestBase.class
+com/orangeHR/Page/AssignLeavepage.class
+com/orangeHR/Page/AdminPage.class
