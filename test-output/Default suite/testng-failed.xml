@@ -5,9 +5,11 @@
     <classes>
       <class name="com.OrangeHR.Application.LoginPageTest">
         <methods>
+          <include name="clickOnSearchedRecord"/>
           <include name="searchFunction"/>
           <include name="TearDown"/>
           <include name="SetUp"/>
+          <include name="goToAssignPage"/>
         </methods>
       </class> <!-- com.OrangeHR.Application.LoginPageTest -->
     </classes>

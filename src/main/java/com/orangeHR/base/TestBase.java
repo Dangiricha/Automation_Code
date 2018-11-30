@@ -22,7 +22,7 @@ public	 static Properties prop;
 		prop = new Properties();
 		
 		//File src = new File("./config.properties");
-		FileInputStream fis = new  FileInputStream("/Users/Riaan/Documents/workspaces/SeleniumProject/src/main/java/com/orangeHR/config/config.properties");
+		FileInputStream fis = new  FileInputStream("/Users/Riaan/git/Automation_Code/SeleniumProject/src/main/java/com/orangeHR/config/config.properties");
 		
 		prop.load(fis);
 		}catch(FileNotFoundException e){

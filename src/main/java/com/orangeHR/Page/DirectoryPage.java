@@ -15,7 +15,7 @@ import com.orangeHR.utils.TestUtil;
 
 public class DirectoryPage extends TestBase {
 	
-	public static String rs;
+
 	
 	
 	@FindBy(id="searchDirectory_emp_name_empName")
@@ -56,9 +56,15 @@ WebElement result;
 		searchButton.click();
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICT_WAIT, TimeUnit.SECONDS);
 		
-	 rs = result.getText();
-	System.out.println(rs);	
+		
 	
+	}
+	
+	public String fetchResult(){
+		String rs = result.getText();
+			System.out.println(rs);
+			return rs;
+			
 	}
 	public void clickReset(){
 		reset.click();
